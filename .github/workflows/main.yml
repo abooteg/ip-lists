@@ -26,6 +26,7 @@ jobs:
 
       - name: Run update script
         env:
+          API_URL: ${{ secrets.API_URL }}
           API_USER: ${{ secrets.API_USER }}
           API_PASS: ${{ secrets.API_PASS }}
         run: python update_prefixes.py
