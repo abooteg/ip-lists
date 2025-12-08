@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - wl.txt
-      - botnet.txt
+      #- botnet.txt
       - update_prefixes.py
 
 jobs:

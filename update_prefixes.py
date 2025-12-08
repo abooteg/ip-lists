@@ -83,11 +83,11 @@ def main():
         print("wl.txt not found")
 
     # BL
-    if os.path.exists("botnet.txt"):
-        bl_entries = parse_file("botnet.txt")
-        upload("blacklist", bl_entries)
-    else:
-        print("botnet.txt not found")
+#    if os.path.exists("botnet.txt"):
+#        bl_entries = parse_file("botnet.txt")
+#        upload("blacklist", bl_entries)
+#    else:
+#        print("botnet.txt not found")
 
 
 if __name__ == "__main__":
